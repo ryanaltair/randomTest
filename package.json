@@ -1,0 +1,23 @@
+{
+  "name": "randomtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanaltair/randomTest.git"
+  },
+  "author": "hegu.wdy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanaltair/randomTest/issues"
+  },
+  "homepage": "https://github.com/ryanaltair/randomTest#readme",
+  "dependencies": {
+    "random-js": "^2.0.0",
+    "request": "^2.88.0"
+  }
+}
