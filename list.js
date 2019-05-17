@@ -20,7 +20,7 @@ module.exports = [{
     },
     {
         name: '梅清',
-        count: 0,
+        count: 1,
         disable: false
     },
     {
