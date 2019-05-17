@@ -34,7 +34,7 @@ console.log('sum', sum, 'votes', votes, 'depth', depth)
 const value = random.integer(1, sum);
 console.log('get lucky num ', value)
 for (const one of list) {
-    if (value <= one.last) {
+    if (value >= one.start && value <= one.last) {
         console.log('now we get', one)
         console.log('now 恭喜', one.name)
         // send(one.name)
