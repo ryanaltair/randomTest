@@ -10,7 +10,7 @@ module.exports = [{
     },
     {
         name: '楚非',
-        count: 0,
+        count: 1,
         disable: false
     },
     {

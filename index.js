@@ -36,7 +36,7 @@ console.log('get lucky num ', value)
 for (const one of list) {
     if (value >= one.start && value <= one.last) {
         console.log('now we get', one)
-        console.log('now 恭喜', one.name)
+        console.log(`恭喜${one.name}` )
         // send(one.name)
         process.exit()
     }
